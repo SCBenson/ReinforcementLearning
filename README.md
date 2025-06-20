@@ -20,7 +20,7 @@ Stores transitions (state, action, reward, next_state) for experience replay:
 - Allows sampling of transitions for training
 
 ### Network Class
-A neural network implementation using PyTorch:
+A neural network implementation using TensorFlow:
 - Two hidden layers with 100 units each and ReLU activation
 - Input dimension of 2 (for 2D state space)
 - Output dimension of 4 (for the four possible discrete actions)
